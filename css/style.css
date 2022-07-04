@@ -3,3 +3,51 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  color: ;
+  line-height: 1.5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.hero-heading {
+  letter-spacing: -1.6px;
+  line-height: 1.1;
+  font-size: 60px;
+}
+
+.hero {
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  max-width: 650px;
+}
+
+.heighlight {
+  color: #fba24f;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
