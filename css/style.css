@@ -61,7 +61,7 @@ a {
   display: block;
 }
 
-.hero-sec-heading .heighlight {
+.heighlight {
   color: #fba24f;
 }
 
@@ -79,6 +79,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 60px 0;
+  margin-bottom: 30px;
 }
 
 .about-sec-figure {
@@ -87,4 +88,67 @@ a {
 
 .about-sec-text {
   width: 40%;
+}
+
+.receipies-sec header {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.receipies-sec-heading {
+  font-size: 36px;
+  color: #676767;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.receipies-sec-des-text {
+  font-size: 18px;
+  color: #252525;
+}
+
+.receipies-sec article {
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.receipies-sec figure {
+  width: 50%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.receipies-sec figure img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.testimonimonial-sec {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer {
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+
+footer h5 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5b5b5b;
+}
+
+footer p {
+  font-size: 16px;
+  color: #fff;
 }
