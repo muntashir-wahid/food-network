@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -15,15 +15,18 @@
   </head>
   <body>
     <div class="container">
+      <!--             -->
+      <!-- Header -->
+      <!--  -->
       <header class="main-header">
-        <section class="hero-sec flex-2-col-container">
-          <div class="hero-sec-text">
+        <section class="hero-sec flex-container">
+          <div class="hero-sec-text-box">
             <h1 class="hero-sec-heading">
               <span> <strong class="heighlight">Skip</strong> the Diet,</span>
               <span>just eat healthy</span>
               <span>with food Network</span>
             </h1>
-            <p>
+            <p class="hero-sec-text">
               Imagine you don't need a diet because we provide healthy and
               delicious food for you!
             </p>
@@ -32,23 +35,41 @@
             </button>
           </div>
           <div class="hero-sec-banner">
-            <img src="./img/hero-img.png" alt="A lady with healthy food" />
+            <img
+              class="hero-img"
+              src="./img/hero-img.png"
+              alt="A lady with healthy food"
+            />
           </div>
         </section>
       </header>
-      <section class="about-sec flex-2-col-container">
-        <div class="about-sec-figure"><img src="./img/img-1.png" alt="" /></div>
-        <div class="about-sec-text">
-          <h2 class="about-sec-heading">About me</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
-            quo ipsa natus distinctio consectetur architecto voluptate incidunt
-            esse error unde? Maiores iusto quia aliquid delectus dignissimos?
-            Voluptas cumque esse quisquam!
-          </p>
-          <button class="btn" type="button"><a href="#">Contact me</a></button>
-        </div>
+
+      <!--          -->
+      <!-- About  -->
+      <!--          -->
+
+      <section class="about-sec">
+        <article class="about-sec-content flex-container">
+          <div class="about-sec-figure">
+            <img class="display-img" src="./img/img-1.png" alt="" />
+          </div>
+          <div class="about-sec-text-box">
+            <h2 class="about-sec-heading">About me</h2>
+            <p class="about-sec-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Asperiores quo ipsa natus distinctio consectetur architecto
+              voluptate incidunt esse error unde? Maiores iusto quia aliquid
+              delectus dignissimos? Voluptas cumque esse quisquam!
+            </p>
+            <button class="btn" type="button">
+              <a href="#">Contact me</a>
+            </button>
+          </div>
+        </article>
       </section>
+      <!--  -->
+      <!-- Receipes -->
+      <!--  -->
       <section class="receipies-sec">
         <header>
           <h3 class="receipies-sec-heading">My recipies</h3>
@@ -58,43 +79,45 @@
             ever since the 1500s.
           </p>
         </header>
-        <article class="flex-2-col-container">
+        <article class="flex-container">
           <figure>
             <img src="./img/recipie-1.jpg" alt="" />
-            <h4>Recipie title</h4>
-            <p>
+            <h4 class="recipie-heading">Recipie title</h4>
+            <p class="recipie-info">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
               voluptatem amet, eveniet minus nostrum dolores.
             </p>
           </figure>
           <figure>
             <img src="./img/recipie-2.jpg" alt="" />
-            <h4>Recipie title</h4>
-            <p>
+            <h4 class="recipie-heading">Recipie title</h4>
+            <p class="recipie-info">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam
               sapiente quaerat est natus consectetur corrupti.
             </p>
           </figure>
         </article>
       </section>
-      <section class="testimonimonial-sec flex-2-col-container">
+      <section class="testimonial-sec flex-container">
         <div>
-          <p><strong>700k</strong></p>
-          <p>Youtube subscribers</p>
+          <p><strong class="bold">700k</strong></p>
+          <p class="testimonila-text">Youtube subscribers</p>
         </div>
         <div>
-          <p><strong>2.4m</strong></p>
-          <p>Instragram Followers</p>
+          <p><strong class="bold">2.4m</strong></p>
+          <p class="testimonila-text">Instragram Followers</p>
         </div>
         <div>
-          <p><strong>100K</strong></p>
-          <p>Dribble short likes</p>
+          <p><strong class="bold">100K</strong></p>
+          <p class="testimonila-text">Dribble short likes</p>
         </div>
       </section>
+      <footer class="footer">
+        <h5 class="footer-heading">
+          <span class="heighlight">Eat</span> Fresh
+        </h5>
+        <p>Eat fresh to eat healthy.Live healthy to live happy.</p>
+      </footer>
     </div>
-    <footer>
-      <h5><span class="heighlight">Eat</span> Fresh</h5>
-      <p>Eat fresh to eat healthy.Live healthy to live happy</p>
-    </footer>
   </body>
 </html>
